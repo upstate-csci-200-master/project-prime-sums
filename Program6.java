@@ -38,7 +38,7 @@ class Program6 {
   public static void main(String[] args) {
       // define the constant MAX which represents the largest size of the primes array
       int num1, num2, numPrime = 0;
-      int[] primes = new int[MAX];
+      // declare an array of the proper data type and size
 
       // convert 1st command line argument from a string to an integer
       num1 = Integer.parseInt(args[0]);
@@ -47,11 +47,7 @@ class Program6 {
       // loop through all integers from num1 to num2
       // store those that are prime in the primes array
       // keep track of the number of primes - numPrime
-      for (int i = num1; i <= num2; i++) {
-        if (isPrime(i)) {
-          primes[numPrime++] = i;
-        }
-      }
+      
       // output the sum of all the primes 
       System.out.println(sumArray(primes, numPrime));
   }
