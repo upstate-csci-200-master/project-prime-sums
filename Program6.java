@@ -1,4 +1,4 @@
-// CSCI 200 Program 6
+// CSCI 200 Sum of Primes project
 // read 2 strings from the command line; each string will contain an integer
 // let's call those integers, num1 and num2
 // write a loop that goes from num1 and num2 looking for prime numbers
@@ -8,7 +8,7 @@
 // you may assume a maximum of not more than 1000 numbers in the array
 import java.util.*;
 
-class Program6 {
+class SumPrimes {
   // go thru the array primes which has size elements
   // total the integer values in primes
   // return this total
