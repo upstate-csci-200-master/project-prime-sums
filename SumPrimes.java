@@ -1,4 +1,5 @@
 // CSCI 200 Sum of Primes project
+// YOU MUST USE ARRAYS TO SOLVE THIS PROBLEM, not arraylists
 // read 2 strings from the command line; each string will contain an integer
 // let's call those integers, num1 and num2
 // write a loop that goes from num1 and num2 looking for prime numbers
